@@ -1,4 +1,11 @@
 LocatePics::Application.routes.draw do
+  resources :instagramfinders
+
+   match '/',  :to => 'instagramfinders#search'
+
+   match '/showpics',  :to => 'instagramfinders#showpics'
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
