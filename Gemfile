@@ -13,6 +13,10 @@ group :development do
 end
 
 
+group :production do  
+  gem 'rack-google-analytics', :require => 'rack/google-analytics'  
+end  
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
