@@ -4,8 +4,14 @@ class Instagramfinder
   def self.geocode(address)
      Geocoder.configure( :timeout =>  10)
      results = Geocoder.search(address)
-     geometry = results[0].data["geometry"]
-     location = geometry["location"]
+     if results == []
+      #if location can't be decoded since Geocoder wont raise an exception
+      #we handle it here and return empty results
+      return results
+     else
+      geometry = results[0].data["geometry"]
+      location = geometry["location"]
+     end
   end
 
  def self.media_search(location)
