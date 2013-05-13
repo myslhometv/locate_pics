@@ -13,6 +13,10 @@ group :development do
 end
 
 
+group :production do
+  gem 'thin'  
+end
+
 group :production do  
   gem 'rack-google-analytics', :require => 'rack/google-analytics'  
 end  
