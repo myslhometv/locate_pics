@@ -14,7 +14,7 @@ end
 
 
 group :production do
-  gem 'thin'  
+ gem 'unicorn'  
 end
 
 group :production do  
