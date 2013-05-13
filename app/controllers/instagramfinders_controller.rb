@@ -1,8 +1,9 @@
 class InstagramfindersController < ApplicationController
  
-
+  #obviously breaking some rules because it is a simple app
+  #will clean up design if necessary
   def search
-   
+   @location = "Browse Photos"
   end
 
   def showpics
@@ -14,6 +15,10 @@ class InstagramfindersController < ApplicationController
     else
      @mashes = Instagramfinder.media_search(@geolocation)
     end
+  end
+
+  def about
+     @location = "About Us"
   end
 
  
