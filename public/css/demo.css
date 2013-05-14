@@ -45,6 +45,17 @@ a {
 	text-decoration: none;
 }
 
+.link {
+ 
+  color: #3f729b;
+ 
+  display: inline;
+}
+
+.link:hover {
+ text-decoration:underline;
+      }
+
 .container {
 	width: 100%;
 	position: relative;
