@@ -12,6 +12,9 @@ group :development do
   gem 'sqlite3', '1.3.5'
 end
 
+group :production do
+ gem 'newrelic_rpm'
+end
 
 group :production do
  gem 'unicorn'  

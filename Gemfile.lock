@@ -66,6 +66,7 @@ GEM
     mime-types (1.23)
     multi_json (1.7.3)
     multipart-post (1.2.0)
+    newrelic_rpm (3.6.2.96)
     pg (0.12.2)
     polyglot (0.3.3)
     rack (1.4.5)
@@ -128,6 +129,7 @@ DEPENDENCIES
   geocoder
   instagram
   jquery-rails (= 2.0.2)
+  newrelic_rpm
   pg (= 0.12.2)
   rack-google-analytics
   rails (= 3.2.13)
