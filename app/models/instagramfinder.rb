@@ -15,7 +15,7 @@ class Instagramfinder
   end
 
  def self.media_search(location)
-   mashes = Instagram.media_search(location["lat"],location["lng"], options={:count=> 60, :min_timestamp=> 1367726400} )
+   mashes = Instagram.media_search(location["lat"],location["lng"], options={:count=> 60} )
  end
 
  def self.popular()
