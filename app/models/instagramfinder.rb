@@ -98,7 +98,19 @@ class Instagramfinder
               {name:"Golden Gate Bridge",
               address:"Golden Gate Bridge San Francisco",
               location:"San Francisco "
-              }]
+              },
+              {name:"Universal Studios",
+               address:"Universal Studios  Los Angeles, CA, USA",
+               location:"Los Angeles"
+               },
+              {name:"Tivoli Gardens",
+               address:"Tivoli Gardens Copenhagen, Denmark",
+               location:"Copenhagen"
+               },
+              {name:"Ipanema",
+               address:"Ipanema, Rio",
+               location:"Rio"
+               }]
 
      
  end
