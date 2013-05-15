@@ -15,17 +15,17 @@ class Instagramfinder
   end
 
  def self.media_search(location)
-   mashes = Instagram.media_search(location["lat"],location["lng"], options={:count=> 60} )
+   mashes = Instagram.media_search(location["lat"],location["lng"], options={:count=> 60 } )
  end
 
  def self.popular()
    popular = [{name:"Suvarnabhumi Airport (BKK)",
               address:"Suvarnabhumi Airport (BKK),Bangkok",
-              location:"Bangkok, Thailand"
+              location:"Bangkok"
               },
               {name:"Siam Paragon shopping mall",
               address:"Siam Paragon shopping mall, Bangkok",
-              location:"Bangkok, Thailand"
+              location:"Bangkok"
               },
               {name:"Disneyland Park",
               address:"Disneyland Park Anaheim, California",
