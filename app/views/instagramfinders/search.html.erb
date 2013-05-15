@@ -11,7 +11,7 @@ Example: <a class="link" href="/showpics?r=central+park+ny">central park ny</a> 
 </div>
 
 
-
+<!--
 <div class="wrap">
  <div class="textbox">
   <div><h4>Popular on Instagram</h4></div>
@@ -30,4 +30,30 @@ Example: <a class="link" href="/showpics?r=central+park+ny">central park ny</a> 
     </ul>
    </div>
  </div>
+-->
+
+<div class="wrap">
+ <div class="textbox">
+  <div><h4>Popular on Instagram</h4></div>
+  <div>
+    <ul>
+  <% @popular.each do |popular| %>
+     <li><a class="link" href="showpics?r=<%=h popular[:address] %>"><%= popular[:name]%></a> in <%= popular[:location] %></li>
+  <% end %>
+    </ul>
+   </div>
+ </div>
+
+<div class="wrap">
+ <div class="textbox">
+  <div></div>
+  <div>
+    <ul>
+  <% @more_popular.each do |popular| %>
+     <li><a class="link" href="showpics?r=<%=h popular[:address] %>"><%= popular[:name]%></a> in <%= popular[:location] %></li>
+  <% end %>
+    </ul>
+   </div>
+ </div> 
+
 </div>

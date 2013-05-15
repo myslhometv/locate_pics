@@ -4,6 +4,8 @@ class InstagramfindersController < ApplicationController
   #will clean up design if necessary
   def search
    @location = "Browse Photos"
+   @popular = Instagramfinder.popular
+   @more_popular = Instagramfinder.more_popular
   end
 
   def showpics
