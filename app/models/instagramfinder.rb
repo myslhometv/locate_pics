@@ -36,7 +36,7 @@ class Instagramfinder
               location:"New York"
               },
               {name:"AT&T Park",
-              address:"AT&T Park, 24 Willie Mays Plaza  San Francisco, CA 94107",
+              address:"24 Willie Mays Plaza  San Francisco, CA 94107",
               location:"San Francisco"
               },
               {name:"Los Angeles International Airport (LAX)",
