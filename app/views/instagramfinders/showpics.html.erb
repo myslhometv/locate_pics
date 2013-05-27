@@ -30,7 +30,7 @@
       <div class="boxInner">
        <% images = mash["images"] %>
        <% thumbnail =  images["standard_resolution"] %>
-        <a href="<%=mash["link"] %>"><img onload="this.style.opacity='1';" src="<%= thumbnail["url"] %>" /></a>
+        <a target="_blank" href="<%=mash["link"] %>"><img onload="this.style.opacity='1';" src="<%= thumbnail["url"] %>" /></a>
         <% location = mash["location"] %>
         <div class="titleBox"><%=location["name"]%></div>
       </div>
