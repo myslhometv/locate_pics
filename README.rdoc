@@ -1,5 +1,5 @@
 == Locate Pics
 
-Really quick weekend hack - http://locatepics.com - Browse Instagram Photos By Location. 
+Really lazy weekend hack - http://locatepics.com - Browse Instagram Photos By Location. 
 
 
