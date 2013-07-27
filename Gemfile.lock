@@ -130,7 +130,7 @@ DEPENDENCIES
   instagram
   jquery-rails (= 2.0.2)
   newrelic_rpm
-  pg (= 0.12.2)
+  pg
   rack-google-analytics
   rails (= 3.2.13)
   sass-rails (~> 3.2.3)
